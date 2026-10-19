@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hocus Focus · Soporte / Support</title>
+<style>
+  :root { color-scheme: dark; --bg:#0e0e0f; --panel:#161618; --edge:#2a2a2d; --text:#f2f0ec; --muted:#8e8e93; --red:#e3404c; }
+  body { margin:0; background:var(--bg); color:var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { font-size: 30px; letter-spacing: 3px; text-transform: uppercase; margin: 0 0 6px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  p, li { color: var(--muted); }
+  strong { color: var(--text); }
+  a { color: var(--red); }
+  .card { background: var(--panel); border:1px solid var(--edge); border-radius: 12px; padding: 16px 18px; margin: 12px 0; }
+  footer { margin-top: 40px; font-size: 13px; color: var(--muted); border-top: 1px solid var(--edge); padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Hocus Focus</h1>
+  <p>Follow focus inalámbrico para Blackmagic Camera · Wireless follow focus for Blackmagic Camera</p>
+
+  <h2>Soporte · Support</h2>
+  <div class="card">
+    <p><strong>Correo · Email:</strong> <a href="mailto:danilo91.zorro97@gmail.com">danilo91.zorro97@gmail.com</a></p>
+    <p><strong>Privacidad · Privacy:</strong> <a href="privacidad.html">privacidad.html</a></p>
+  </div>
+
+  <h2>Cómo conectar · How to connect</h2>
+  <ol>
+    <li>En el iPhone que graba: Blackmagic Camera → Preferencias → Network Access → <strong>Enable HTTP Server</strong>.<br>On the recording iPhone: Blackmagic Camera → Settings → Network Access → <strong>Enable HTTP Server</strong>.</li>
+    <li>Los dos dispositivos en la misma Wi‑Fi (o el hotspot del iPhone que graba).<br>Both devices on the same Wi‑Fi (or the recording iPhone's hotspot).</li>
+    <li>En Hocus Focus, toca la cámara que aparece en la lista, o escribe la dirección (p. ej. 192.168.1.10:4444).<br>In Hocus Focus, tap the camera in the list, or type the address (e.g. 192.168.1.10:4444).</li>
+  </ol>
+
+  <h2>Problemas frecuentes · Troubleshooting</h2>
+  <ul>
+    <li><strong>No aparece la cámara:</strong> comprueba que el servidor HTTP esté activado y que ambos estén en la misma red. Usa "Buscar en la red" o la dirección manual.<br><strong>Camera not listed:</strong> check the HTTP server is on and both devices share a network. Use "Scan network" or the manual address.</li>
+    <li><strong>El foco no se mueve:</strong> en Blackmagic Camera el foco debe estar en manual.<br><strong>Focus does not move:</strong> focus must be set to manual in Blackmagic Camera.</li>
+    <li><strong>Permiso de red local:</strong> si lo rechazaste, actívalo en Ajustes → Hocus Focus → Red local.<br><strong>Local network permission:</strong> if declined, enable it in Settings → Hocus Focus → Local Network.</li>
+  </ul>
+
+  <footer>Hocus Focus no está afiliada a Blackmagic Design. "Blackmagic Camera" es una marca de Blackmagic Design Pty. Ltd.</footer>
+</main>
+</body>
+</html>
